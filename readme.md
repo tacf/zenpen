@@ -1,8 +1,23 @@
-## ZenPen - A minimalist writing zone.
+## ZenPen 2 - A minimalist writing zone wrapped around Electron framework.
 
-Zenpen (http://zenpen.io) is a web app for writing minimally, and getting into the Zone.
+Zenpen (http://zenpen.io) is a web app for writing minimally, and getting into the Zone. I have upgraded it for use on desktop has 
+if just another application
 
 All information is persistent locally, using HTML5 local storage.
+
+###Installation and Usage
+
+```bash
+git clone https://github.com/tacf/zenpen
+```
+
+```bash
+cd zenpen
+```
+
+```bash
+npm install && npm start
+```
 
 ###ZenPen's minimal interface
 ![ZenPen](https://i.imgur.com/uP8Ensx.png)
