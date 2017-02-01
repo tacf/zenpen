@@ -1,0 +1,20 @@
+{
+  "name": "zenpen-editor",
+  "version": "1.0.0",
+  "description": "Zenpen editor wrapped in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/tacf/zenpen",
+  "keywords": [
+    "Electron",
+    "editor",
+    "text",
+    "zenpen"
+  ],
+  "author": "tacf",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
