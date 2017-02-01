@@ -353,7 +353,8 @@ ZenPen.editor = (function() {
 		if ( text === "" ) {
 			return 0
 		} else {
-			return text.split(/\s+/).length;
+			var splitWords = text.match(/[^\x00-\xff]|\S+/g);
+ 			return splitWords.length;
 		}
 	}
 
